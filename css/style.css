@@ -1,0 +1,101 @@
+/*headerCSS*/
+.heroSection {
+    background-image: url(../images/heroImg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: calc(100vh - 25px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    padding: 50px;
+  }
+  .navBarText {
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+  }
+  .container {
+    width: 70%;
+    min-width: 500px;
+    max-width: 700px;
+    color: white;
+    text-align: center;
+    margin-top: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+#visitCal {
+   width: 143px;
+    height: 33px;
+    left: 29px;
+    top: 36px;
+    font-family: 'Oleo Script', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+}
+
+  #display-4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    padding: 10px;
+  }
+  #display-5 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    padding: 10px;
+  }
+
+  #chevron {
+    width: 45.76px;
+    height: 23.5px;
+    left: calc(50% - 45.76px/2 + 8.46px);
+    top: 542px;
+  }
+
+  .headerText {
+    padding: 50px;
+    color: white;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 33px;
+  }
+  #hamburg {
+    width: 30px;
+    height: 20px;
+    left: 1858px;
+    top: 43px;
+  }
+
+  /*experienceAdventureCSS*/
+  
+.expAdvTag {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+  #display-6 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 37px;
+    line-height: 50px;
+    color: #FFA300;
+}
+
+#display-7 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 58px;
+    line-height: 79px;
+    color: #000000;
+}
+
